@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Fira+Sans&display=swap');
+
+* {
+    background-color: rgba(40, 44, 51, 1);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Fira Sans";
+    gap:1.5rem;
+    margin: 1rem;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 3.0em;
+}
+
+h1 span {
+    color: #95EBA8;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: whitesmoke;
+}
+
+input,button {
+    height: 48px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+input {
+    background-color: rgba(217, 217, 217, 0.10);
+    padding-left: 10px;
+}
+
+input:active {
+    outline: none;
+}
+
+input::placeholder{
+color: #898989;
+
+}
+
+button {
+    color: #373737;
+    text-align: center;
+    background-color: #96EB95;
+    line-height: normal;
+    width: 171px;
+    cursor: pointer;
+    font-weight: 400;
+} 
+
+button:active {
+    transform: scale(0.98);
+}
+
+.container-coins {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 20px;
+    height: 580px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.coins {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    list-style: none;
+    overflow-y: scroll;
+
+}
+
+.coins li {
+    width: 150px;
+    background-color: rgba(217, 217, 217, 0.10);
+    border-radius: 5px;
+    padding: 15px 20px;
+    color:white
+}
+
+.coins li span {
+    color: yellow;
+}
